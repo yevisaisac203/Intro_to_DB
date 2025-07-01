@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS Books (
 
 CREATE TABLE IF NOT EXISTS Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
+    customer_name VARCHAR(215) NOT NULL,  -- Updated column name
+    email VARCHAR(215) NOT NULL UNIQUE,    -- Updated column name
     phone VARCHAR(15),
     address TEXT
 );
