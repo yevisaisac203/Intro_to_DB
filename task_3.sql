@@ -1,3 +1,5 @@
 -- task_3.sql
 
-SHOW TABLES;
+USE alx_book_store;  -- Select the database
+
+SHOW TABLES;  -- List all tables in the database
