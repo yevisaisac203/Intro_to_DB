@@ -5,10 +5,10 @@ def create_database():
     try:
         # Connect to MySQL server
         connection = mysql.connector.connect(
-            host='localhost',  # Replace with your host
-            user='your_username',  # Replace with your username
-            password='your_password'  # Replace with your password
-        )
+            host='localhost',  
+            user='root',
+            password='Yevisah@2045'  
+            )
 
         if connection.is_connected():
             cursor = connection.cursor()
